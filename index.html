@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Los Angeles | Urban Oilscape</title>
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- MapBox -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet"/>
+
+  <!-- Turf-->
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+  
+  <!-- D3 -->
+  <script src="lib/d3.v5.min.js"></script>
+  
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Los Angeles | Urban Oilscape</h1>
+  </header>
+  <div class="side-panel">
+    <div id="filter">
+      <a id="zoom">Los Angeles Basin (zoom)</a>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script type="text/javascript" src="src/map.js"></script>
+</body>
+</html>
