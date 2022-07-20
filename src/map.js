@@ -23,7 +23,7 @@ const map = new mapboxgl.Map({
 });
 
 map.on('idle', () => {
-  const toggleableLayerIds = ['oil-wells-turf-geometry-1-mile', 'concentrated-disadvantage-index', 'income-per-capita'];
+  const toggleableLayerIds = ['oil-wells-1-mile-radius-circle', 'concentrated-disadvantage-index', 'income-per-capita'];
   
   // Set up the corresponding toggle button for each layer.
   for (const id of toggleableLayerIds) {
